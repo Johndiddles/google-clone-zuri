@@ -1,0 +1,16 @@
+{
+  "name": "google_clone",
+  "version": "1.0.0",
+  "description": "a google homepage clone with html, css and javaScript from Zuri classes ",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "JohnDiddles",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
