@@ -101,6 +101,8 @@ button {
 
 .main-bottom {
     margin:1em auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .main-bottom a {
@@ -164,4 +166,49 @@ button {
 
 .footer-links {
     margin: auto 10px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .google-img{
+        height: 3.4rem;
+    }
+    .search-div {
+        width: 95vw;   
+    }
+    .search-div img {
+        height: 18px;
+    }
+    
+    img.search {
+        height: 12px;
+    }
+    
+    input {
+        width: 90%;
+        padding: 0.7em;
+        border: none;
+        font-size: 12px;
+        outline: none;
+    }
+    button {
+        display: none;
+    }
+    .main-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-bottom div {
+        margin: 1em auto;
+    }
+
+    .footer-divs, .first, .second {
+        display: none;
+    }
+
+    .last {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
